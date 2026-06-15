@@ -1,7 +1,8 @@
 # projet-personnel
-1 Titre du projet
+# 1 Titre du projet
 Dweelo — Application web de mise en relation entre chercheurs de logements et propriétaires au Cameroun.
-2. Le problème
+
+# 2. Le problème
 La recherche de logement au Cameroun, notamment à Douala et Yaoundé, est un parcours du combattant. Les personnes qui cherchent un toit doivent souvent :
 → Se déplacer dans plusieurs quartiers sans garantie de disponibilité
 → Contacter de nombreux propriétaires via le bouche-à-oreille ou des affichages papier
