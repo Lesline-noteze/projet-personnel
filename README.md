@@ -9,9 +9,12 @@ La recherche de logement au Cameroun, notamment à Douala et Yaoundé, est un pa
 → Faire face à des informations incomplètes, inexactes ou frauduleuse
 
 # 3. Cible (Utilisateurs)
-•	Chercheur : Étudiant, jeune actif, famille, travailleur migrant arrivant dans une nouvelle ville (Douala, Yaoundé, Bafoussam…)
-•	Propriétaire : Particulier ou agence souhaitant publier et gérer ses annonces en ligne sans intermédiaire
-•	Administrateur : Gestionnaire de la plateforme chargé de valider les annonces et garantir la qualité des données
+
+| Acteur   | Profil cible                                                                                               | 
+|----------|------------------------------------------------------------------------------------------------------------|
+| Chercheur    |Etudiant , jeune actif , famille , travailleur migrant dans une nouvelle ville (Douala , Yaoundé ,...   |
+| Propriétaire | Particulier ou agence souhaitant publier et gérer ses annonces en ligne sans intermédiaire    |
+| Administrateur   | Gestionnaire de la plateforme chargé dz validder les annonces et garantir la qualité des données     | 
 
 # 4. Proposition de valeur
 Dweelo centralise les annonces immobilières camerounaises en un seul endroit, avec des informations vérifiées, des photos réelles et la possibilité de demander une visite directement en ligne — sans se déplacer à l'aveugle.
@@ -42,7 +45,7 @@ Admin — Validation : Liste des annonces en attente + boutons valider/rejeter
 
 # 8. Données Manipulées
 Objets principaux gérés dans l'application (données simulées en frontend) :
-a)	Logement
+## a)	Logement
 Titre     (String)   , Type Logement (string) , Localisation(string), Prix    (number) , Description /nbre pièce (sting) , Photos  (UrL) , Commodités(object) , Disponible   (booléen) , Contact      (string)
 b)	Utililisateur
 Id (string) , nom(string) ,email(string) , role(string)
@@ -59,3 +62,4 @@ L'application doit rester utilisable dans les conditions de connectivité camero
 → Données légères : images optimisées, pagination des annonces
 → Stockage local : les annonces consultées récemment sont mises en cache via LocalStorage
 → Pas de dépendance à un serveur externe : toutes les données sont simulées en frontend
+
